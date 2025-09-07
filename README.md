@@ -2,6 +2,12 @@
 
 ---
 
+## 🖌️ Figma Prototype
+
+[View the Peerly Figma Prototype](https://www.figma.com/proto/4NHcLy7J32WzZn3pmtj9Tz/merge-conflict?node-id=0-1&t=lDxMyX3SvU1TcQAI-1)
+
+---
+
 ## 📖 About the Project
 
 This project is developed as part of the **Student Lifestyle** track of Codenection 2025.  
