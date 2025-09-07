@@ -1,8 +1,12 @@
 # Peerly
 
+Peer-powered academic support platform for students—ask questions, share notes, and connect with peers and tutors.
+
 ---
 
 ## 🖌️ Figma Prototype
+
+Explore the interactive prototype and UI design for Peerly. This Figma file demonstrates the intended user experience, layout, and core flows for the platform.
 
 [View the Peerly Figma Prototype](https://www.figma.com/proto/4NHcLy7J32WzZn3pmtj9Tz/merge-conflict?node-id=0-1&t=lDxMyX3SvU1TcQAI-1)
 
