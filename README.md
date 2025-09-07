@@ -1,93 +1,92 @@
 # Peerly
 
-This guide will help you set up and run the Peerly project from scratch, even if you have never installed Node.js before. Follow each step carefully.
+---
+
+## 📖 About the Project
+
+This project is developed as part of the **Student Lifestyle** track of Codenection 2025.  
+We have chosen to address the following problem statement:
+
+> **Background:**  
+> Many students struggle with academic challenges, including difficulty understanding course material, limited access to personalized help, and inefficient study habits.
+
+> **The Problem:**  
+> Traditional tutoring services are often expensive, inconvenient, or unavailable outside of fixed hours, leaving students without adequate support when they need it most. This gap hinders academic performance, increases stress, and discourages independent learning.
+
+Our platform aims to bridge this gap by providing an accessible, peer-powered ecosystem for academic support.  
+Key features include:
+
+- A subject-centric Q&A and notes-sharing system
+- Community-driven moderation and subject curation
+- Verified tutor and contributor badges
+- Study tips, difficulty ratings, and analytics to foster active participation
+- A robust tagging and notification system to ensure content discoverability and engagement
+- Support for both subject-specific and general questions to cater to diverse academic needs
+
+By tackling this problem, our goal is to create a dynamic learning environment that bridges gaps between students, tutors, and resources—enhancing educational outcomes and fostering a strong academic community.
+
+_Please refer to the rest of this README for setup instructions, contribution guidelines, and a detailed system flow._
 
 ---
 
-## 1. Prerequisites
+## 🛠️ Tech Stack
 
-### Install Node.js
-
-Node.js is required to run this project. If you don't have Node.js:
-
-1. Go to the [Node.js download page](https://nodejs.org/).
-2. Download the **LTS** version for your operating system (Windows, macOS, or Linux).
-3. Run the installer and follow the instructions (keep all default settings).
-4. After installation, open a terminal (Command Prompt or PowerShell on Windows) and run:
-   ```bash
-   node --version
-   npm --version
-   ```
-   You should see version numbers for both. If not, restart your computer and try again.
+- **Framework:** [Next.js](https://nextjs.org/)
+- **UI Library:** [shadcn/ui](https://ui.shadcn.com/)
+- **Language:** TypeScript
+- **Package Manager:** npm
+- **Other:** React, Lucide Icons
 
 ---
 
-## 2. Clone the Repository
+## 🚀 Getting Started
 
-If you haven't already, download the project code:
+### 1. Prerequisites
 
-1. Install [Git](https://git-scm.com/downloads) if you don't have it.
-2. Open a terminal and run:
-   ```bash
-   git clone https://github.com/firzanruzain/Peerly.git
-   cd Peerly
-   ```
+- **Node.js**: [Download & Install Node.js (LTS)](https://nodejs.org/)
+- **Git**: [Download & Install Git](https://git-scm.com/downloads)
 
----
+Verify installation:
 
-## 3. Install Dependencies
+```bash
+node --version
+npm --version
+```
 
-In the project folder, run:
+### 2. Clone the Repository
+
+```bash
+git clone https://github.com/firzanruzain/Peerly.git
+cd Peerly
+```
+
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-This will download all the packages the project needs.
+### 4. Set Up shadcn/ui (Optional: For Adding UI Components)
 
----
+```bash
+npx shadcn-ui@latest init
+# To add a component (e.g., button):
 
-## 4. Install and Use shadcn/ui (Component Library)
+```
 
-This project uses [shadcn/ui](https://ui.shadcn.com/) for building beautiful UI components.
+See [shadcn/ui documentation](https://ui.shadcn.com/docs/components) for more.
 
-### If you want to add new UI components:
-
-1. Make sure you are in the project folder.
-2. If you haven't already, install the shadcn/ui CLI:
-   ```bash
-   npx shadcn-ui@latest init
-   ```
-   Follow the prompts to set up shadcn/ui for your project.
-3. To add a new component (for example, a button):
-   ```bash
-   npx shadcn-ui@latest add button
-   ```
-   This will add the component to the `components/ui/` folder.
-
-For more components and usage, see the [shadcn/ui documentation](https://ui.shadcn.com/docs/components).
-
----
-
-## 5. Start the Development Server
-
----
-
-Run:
+### 5. Start the Development Server
 
 ```bash
 npm run dev
 ```
 
-- If successful, you will see a message like:
-  ```
-  Local: http://localhost:3000
-  ```
-- Open your browser and go to [http://localhost:3000](http://localhost:3000)
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 5. Project Structure
+## 🗂️ Project Structure
 
 - `app/` - Main application code (pages, layouts)
 - `components/` - Reusable UI components
@@ -96,34 +95,3 @@ npm run dev
 - `package.json` - Project configuration and dependencies
 
 ---
-
-## 6. Editing the Project
-
-- Edit `app/page.tsx` to change the main page.
-- The app will auto-update as you save changes.
-
----
-
-## 7. Troubleshooting
-
-- If you see errors, make sure Node.js and npm are installed correctly.
-- Try deleting the `node_modules` folder and running `npm install` again.
-- If you need help, search for the error message online or ask for help in the [Next.js Discord](https://discord.gg/nextjs).
-
----
-
-## 8. Learn More
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Node.js Documentation](https://nodejs.org/en/docs)
-- [GitHub: Peerly](https://github.com/firzanruzain/Peerly)
-
----
-
-## 9. Deploying
-
-To deploy your app for production, see the [Next.js deployment guide](https://nextjs.org/docs/app/building-your-application/deploying).
-
----
-
-**You're ready to start developing with Peerly!**
